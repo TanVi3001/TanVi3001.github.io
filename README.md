@@ -1,69 +1,106 @@
-# minh.anh/ — Portfolio cá nhân
+# Personal Portfolio — Lê Tấn Vĩ
 
-Website portfolio tĩnh đa trang được xây dựng theo yêu cầu học tập: HTML5, CSS3 và JavaScript thuần.
+Website portfolio cá nhân đa trang của **Lê Tấn Vĩ**, sinh viên năm 3 ngành **Hệ thống Thông tin (Management Information Systems)** tại **Đại học Công nghệ Thông tin – ĐHQG TP.HCM (UIT)**.
+
+Portfolio thể hiện định hướng:
+
+```text
+Data → Software → AI → Research
+```
 
 ## Nội dung
 
-Website gồm đủ 8 trang:
+- Home / About — thông tin học tập, định hướng, education và contact placeholder.
+- Projects — Drosophila Parkinson's Disease Simulation, Smart Supermarket Management System và MNIST Handwritten Digit Recognition.
+- Experience — timeline hoạt động nghiên cứu và dự án học thuật, không bịa công ty hoặc internship.
+- Hobbies — coding, AI, research, data analysis, learning và experimentation.
+- Skills — programming self-assessment, Data/AI, Database, Development, Research/Simulation và soft skills.
+- Books — 3 cuốn sách về software development và machine learning.
+- Certificates — VNU-EPT B1.3 đã cung cấp và một card placeholder cho chứng chỉ thứ hai.
+- Gallery — CSS Grid với 8 placeholder visuals, lightbox, previous/next, Escape và phím mũi tên.
 
-1. **Home / Info** — thông tin cơ bản, ảnh đại diện và liên hệ.
-2. **Dự án** — 4 dự án mẫu, có mô tả, vai trò, công nghệ và liên kết.
-3. **Kinh nghiệm** — timeline học tập và làm việc.
-4. **Sở thích** — 6 sở thích có icon và mô tả.
-5. **Thế mạnh** — kỹ năng cứng dạng progress bar và kỹ năng mềm dạng card.
-6. **Sách** — 3 sách yêu thích có bìa, tác giả và cảm nhận.
-7. **Chứng chỉ** — 3 chứng chỉ có đơn vị cấp, thời gian và credential ID.
-8. **Gallery** — 8 ảnh responsive, lazy-load và lightbox phóng to.
-
-## Cấu trúc thư mục
+## Technologies
 
 ```text
-.
+HTML5
+CSS3
+JavaScript thuần
+Git / GitHub
+GitHub Pages
+```
+
+## Project structure
+
+```text
+portfolio/
 ├── index.html
 ├── projects.html
 ├── experience.html
-├── interests.html
+├── hobbies.html
 ├── skills.html
 ├── books.html
 ├── certificates.html
 ├── gallery.html
 ├── css/
-│   └── style.css
+│   ├── style.css
+│   └── responsive.css
 ├── js/
-│   └── script.js
+│   ├── main.js
+│   └── gallery.js
+├── assets/
+│   ├── images/
+│   │   ├── gallery/
+│   │   ├── projects/
+│   │   ├── books/
+│   │   └── certificates/
+│   └── icons/
 └── README.md
 ```
 
-## Chạy local
+## How to run
 
-Mở `index.html` trực tiếp trên trình duyệt, hoặc chạy một static server trong thư mục project:
+Có thể mở trực tiếp `index.html`, hoặc chạy static server:
 
 ```bash
 python -m http.server 8000
 ```
 
-Sau đó mở <http://localhost:8000>.
+Mở <http://localhost:8000>.
 
-## Deploy GitHub Pages
+## Deployment — GitHub Pages
 
-1. Tạo một repository mới trên GitHub và push toàn bộ thư mục project lên nhánh `main`.
+Repository hiện tại:
+
+<https://github.com/TanVi3001/TanVi3001.github.io>
+
+Live site:
+
+<https://tanvi3001.github.io/>
+
+Để deploy repository mới:
+
+1. Push toàn bộ source lên branch `main`.
 2. Vào **Settings → Pages**.
-3. Ở **Build and deployment**, chọn **Deploy from a branch**, branch `main`, folder `/ (root)`.
-4. Bấm **Save** và chờ GitHub Pages tạo địa chỉ dạng `https://<username>.github.io/<repository>/`.
+3. Chọn **Deploy from a branch**, branch `main`, folder `/ (root)`.
+4. Save và chờ GitHub Pages build.
 
-Website dùng đường dẫn tương đối (`./`) nên hoạt động được cả ở domain root lẫn trong sub-path của repository.
+Website dùng đường dẫn tương đối (`./`) nên có thể chạy ở root domain hoặc repository sub-path.
 
-## Responsive và khả năng truy cập
+## Accessibility, responsive và performance
 
-- Layout dùng CSS Grid/Flexbox với breakpoint mobile `<768px`, tablet `768–1020px`, desktop `>1020px`.
-- Có skip link, heading theo thứ bậc, `alt` cho ảnh, focus state rõ ràng và `aria-current` cho trang hiện tại.
-- Gallery có `loading="lazy"`, ảnh dùng URL Unsplash với định dạng WebP và kích thước phù hợp.
-- Lightbox có nút đóng, hỗ trợ phím `Escape` và trả focus về thumbnail ban đầu.
-- Có hỗ trợ `prefers-reduced-motion` cho người dùng hạn chế chuyển động.
+- Semantic HTML5, heading hierarchy, skip link, `aria-label`, `aria-expanded` và `aria-current`.
+- Mọi ảnh đều có `alt`; gallery dùng `loading="lazy"`.
+- Gallery button keyboard-accessible; modal có Close, Escape, Previous, Next, ArrowLeft và ArrowRight.
+- Focus state rõ ràng, màu navy/cyan/purple có tương phản tốt và có `prefers-reduced-motion`.
+- Layout dùng Grid/Flexbox và media queries cho mobile `<576px`, tablet `768–991px`, desktop `≥992px`.
+- Không dùng table cho layout và không tải thư viện JavaScript lớn.
 
-## Nguồn nội dung và bản quyền
+## Image and book sources
 
-- Ảnh gallery và avatar: [Unsplash](https://unsplash.com/), sử dụng qua Unsplash Image URL với `auto=format` và `fm=webp`.
-- Ảnh bìa sách: [Open Library Covers API](https://openlibrary.org/dev/docs/api/covers).
-- Nội dung nhân vật, dự án, chứng chỉ và liên hệ là dữ liệu giả lập phục vụ mục đích học tập; không sử dụng thông tin nhạy cảm.
-- Mã nguồn website do Minh Anh viết cho bài tập cá nhân. Khi thay ảnh/nội dung bằng tài nguyên riêng, cần kiểm tra lại giấy phép trước khi tái phân phối.
+- Profile, project, certificate và gallery visuals hiện là **local SVG placeholders** được tạo riêng cho bài tập. Thay bằng ảnh cá nhân/screenshot project đã được cấp phép trong thư mục `assets/images/` khi có.
+- Metadata/link sách tham khảo từ [Open Library](https://openlibrary.org/). Các cover đang dùng là placeholder local để website chạy offline.
+- Không sử dụng thông tin nhạy cảm. Email, GitHub cá nhân và LinkedIn chưa được cung cấp nên dùng placeholder rõ ràng.
+
+## License
+
+Code có thể phát hành theo **MIT License**. Placeholder visuals trong `assets/images/` phục vụ mục đích học tập của project này. Khi thay bằng ảnh cá nhân hoặc tài nguyên public, cần kiểm tra và ghi đúng license của từng tài nguyên.
