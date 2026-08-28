@@ -67,6 +67,10 @@ python -m http.server 8000
 
 Mở <http://localhost:8000>.
 
+## Tài liệu kỹ thuật
+
+Tài liệu tiếng Việt về các thẻ HTML, selector/property CSS, hàm JavaScript và kiến trúc project nằm trong thư mục [docs](./docs/README.md).
+
 ## Deployment — GitHub Pages
 
 Repository hiện tại:
