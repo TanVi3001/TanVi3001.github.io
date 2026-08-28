@@ -1167,6 +1167,10 @@ h3 {
 }
 
 .certificate-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 320px;
     padding: 22px
 }
 
@@ -1180,8 +1184,10 @@ h3 {
 
 .certificate-image img {
     width: 100%;
-    aspect-ratio: 1.55;
-    object-fit: cover
+    height: 320px;
+    object-fit: contain;
+    object-position: center;
+    background: #fff
 }
 
 .certificate-content {

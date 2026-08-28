@@ -290,6 +290,14 @@
         grid-template-columns: 1fr
     }
 
+    .certificate-image {
+        min-height: 240px
+    }
+
+    .certificate-image img {
+        height: 240px
+    }
+
     .hobby-card {
         min-height: 230px
     }

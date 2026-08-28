@@ -16,7 +16,7 @@ Data → Software → AI → Research
 - Hobbies — coding, AI, research, data analysis, learning và experimentation.
 - Skills — programming self-assessment, Data/AI, Database, Development, Research/Simulation và soft skills.
 - Books — 3 cuốn sách về software development và machine learning.
-- Certificates — VNU-EPT B1.3 đã cung cấp và một card placeholder cho chứng chỉ thứ hai.
+- Certificates — VNU-EPT B1.3 và Google Data Analytics Professional Certificate.
 - Gallery — CSS Grid với 8 placeholder visuals, lightbox, previous/next, Escape và phím mũi tên.
 
 ## Technologies
@@ -97,10 +97,12 @@ Website dùng đường dẫn tương đối (`./`) nên có thể chạy ở ro
 
 ## Image and book sources
 
-- Profile, project, certificate và gallery visuals hiện là **local SVG placeholders** được tạo riêng cho bài tập. Thay bằng ảnh cá nhân/screenshot project đã được cấp phép trong thư mục `assets/images/` khi có.
+- Ảnh chứng chỉ VNU-EPT trong `assets/images/certificates/vnu-ept-redacted.webp` được tạo từ ảnh người dùng cung cấp và đã che CCCD, ngày sinh, ảnh chân dung cùng các mã định danh trước khi đưa lên web.
+- Ảnh `assets/images/certificates/coursera-data-analytics.webp` được render từ file PDF Google Data Analytics Professional Certificate người dùng cung cấp.
+- Các visual profile, project và gallery còn lại là **local SVG placeholders** được tạo riêng cho bài tập. Khi thay bằng ảnh cá nhân/screenshot project đã được cấp phép, cần cập nhật lại nguồn trong README.
 - Cover Hands-On Machine Learning là ảnh local được cung cấp trong `assets/images/books/MachineLearning.jpg`; các cover còn lại dùng Open Library Covers API theo ISBN: [Clean Code](https://openlibrary.org/isbn/9780132350884), [The Pragmatic Programmer](https://openlibrary.org/isbn/9780135957059) và [Storytelling with Data](https://openlibrary.org/books/OL29297625M/Storytelling_with_Data).
-- Không sử dụng thông tin nhạy cảm. Email, GitHub cá nhân và LinkedIn chưa được cung cấp nên dùng placeholder rõ ràng.
+- Không đưa file gốc chứa thông tin nhạy cảm vào repository. Email, GitHub cá nhân và LinkedIn chưa được cung cấp nên dùng placeholder rõ ràng.
 
 ## License
 
-Code có thể phát hành theo **MIT License**. Placeholder visuals trong `assets/images/` phục vụ mục đích học tập của project này. Khi thay bằng ảnh cá nhân hoặc tài nguyên public, cần kiểm tra và ghi đúng license của từng tài nguyên.
+Code có thể phát hành theo **MIT License**. Ảnh chứng chỉ là tài liệu do người dùng cung cấp, chỉ dùng trong portfolio cá nhân. Các placeholder visuals trong `assets/images/` phục vụ mục đích học tập; khi thay bằng ảnh cá nhân hoặc tài nguyên public, cần kiểm tra và ghi đúng license của từng tài nguyên.
