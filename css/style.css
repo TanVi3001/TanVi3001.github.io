@@ -1288,7 +1288,10 @@ h3 {
 .gallery-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
+    padding: 10px;
+    background: #fff;
     transition: transform .4s ease, filter .4s ease
 }
 

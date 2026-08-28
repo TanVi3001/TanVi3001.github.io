@@ -32,8 +32,7 @@
     <section class="page-hero container section-space">
       <p class="eyebrow">08 / GALLERY</p>
       <h1>Snapshots of<br><span>the process.</span></h1>
-      <p class="page-lead">Placeholder visuals cho những category mình muốn lưu lại: University, Projects, Research,
-        Coding và Activities.</p>
+      <p class="page-lead">Những khung hình đặc trưng từ các project về hệ thống siêu thị, MNIST và mô phỏng Drosophila.</p>
     </section>
     <section class="section-space section-border">
       <div class="container">
@@ -41,37 +40,56 @@
           <p><span>08</span> frames / click to expand</p>
           <p>Use ← → to navigate</p>
         </div>
-        <div class="gallery-grid"><button class="gallery-item gallery-tall reveal" type="button" data-gallery-index="0"
-            data-category="University" data-caption="University / learning environment"><img
-              src="./assets/images/gallery/university.svg" alt="Placeholder không gian đại học" width="900"
-              height="1200" loading="lazy"><span class="gallery-label">University</span></button><button
-            class="gallery-item reveal reveal-delay-1" type="button" data-gallery-index="1" data-category="Projects"
-            data-caption="Projects / systems in progress"><img src="./assets/images/gallery/projects.svg"
-              alt="Placeholder giao diện project và hệ thống" width="900" height="675" loading="lazy"><span
-              class="gallery-label">Projects</span></button><button
-            class="gallery-item gallery-wide reveal reveal-delay-2" type="button" data-gallery-index="2"
-            data-category="Research" data-caption="Research / computational thinking"><img
-              src="./assets/images/gallery/research.svg" alt="Placeholder research visualization" width="1200"
-              height="900" loading="lazy"><span class="gallery-label">Research</span></button><button
-            class="gallery-item reveal" type="button" data-gallery-index="3" data-category="Coding"
-            data-caption="Coding / build and debug"><img src="./assets/images/gallery/coding.svg"
-              alt="Placeholder màn hình coding" width="900" height="1200" loading="lazy"><span
-              class="gallery-label">Coding</span></button><button class="gallery-item reveal reveal-delay-1"
-            type="button" data-gallery-index="4" data-category="Activities" data-caption="Activities / study group"><img
-              src="./assets/images/gallery/activities.svg" alt="Placeholder hoạt động nhóm học tập" width="900"
-              height="1200" loading="lazy"><span class="gallery-label">Activities</span></button><button
-            class="gallery-item gallery-wide reveal reveal-delay-2" type="button" data-gallery-index="5"
-            data-category="Research" data-caption="Research / simulation workflow"><img
-              src="./assets/images/gallery/simulation.svg" alt="Placeholder simulation workflow" width="1200"
-              height="900" loading="lazy"><span class="gallery-label">Simulation</span></button><button
-            class="gallery-item reveal" type="button" data-gallery-index="6" data-category="University"
-            data-caption="University / notes and references"><img src="./assets/images/gallery/notes.svg"
-              alt="Placeholder sổ tay và tài liệu học tập" width="900" height="1200" loading="lazy"><span
-              class="gallery-label">Notes</span></button><button class="gallery-item reveal reveal-delay-1"
-            type="button" data-gallery-index="7" data-category="Activities"
-            data-caption="Activities / a quiet reset"><img src="./assets/images/gallery/reset.svg"
-              alt="Placeholder góc nghỉ và suy nghĩ" width="900" height="1200" loading="lazy"><span
-              class="gallery-label">Reset</span></button></div>
+        <div class="gallery-grid">
+          <button class="gallery-item gallery-wide reveal" type="button" data-gallery-index="0"
+            data-category="Smart Supermarket" data-caption="Revenue dashboard / monthly overview">
+            <img src="./assets/images/projects/supermarket-dashboard.webp"
+              alt="Dashboard báo cáo doanh thu của hệ thống Smart Supermarket" width="1120" height="641"
+              loading="lazy"><span class="gallery-label">Supermarket Dashboard</span>
+          </button>
+          <button class="gallery-item gallery-wide reveal reveal-delay-1" type="button" data-gallery-index="1"
+            data-category="Smart Supermarket" data-caption="POS / product and cart management">
+            <img src="./assets/images/gallery/supermarket-pos.webp"
+              alt="Giao diện bán hàng POS của hệ thống Smart Supermarket" width="1919" height="1079"
+              loading="lazy"><span class="gallery-label">Supermarket POS</span>
+          </button>
+          <button class="gallery-item gallery-wide reveal reveal-delay-2" type="button" data-gallery-index="2"
+            data-category="MNIST" data-caption="Dataset / handwritten digit samples">
+            <img src="./assets/images/projects/mnist-dataset-samples.webp"
+              alt="20 mẫu chữ số viết tay trong tập dữ liệu MNIST" width="1189" height="418"
+              loading="lazy"><span class="gallery-label">MNIST Dataset</span>
+          </button>
+          <button class="gallery-item reveal" type="button" data-gallery-index="3" data-category="MNIST"
+            data-caption="Preprocessing / custom digit pipeline">
+            <img src="./assets/images/gallery/mnist-preprocessing.webp"
+              alt="Các bước tiền xử lý ảnh chữ số cho mô hình MNIST" width="913" height="273"
+              loading="lazy"><span class="gallery-label">MNIST Pipeline</span>
+          </button>
+          <button class="gallery-item gallery-wide reveal reveal-delay-1" type="button" data-gallery-index="4"
+            data-category="MNIST" data-caption="Evaluation / confusion matrix">
+            <img src="./assets/images/gallery/mnist-confusion-matrix.webp"
+              alt="Ma trận nhầm lẫn đánh giá mô hình MNIST" width="844" height="715"
+              loading="lazy"><span class="gallery-label">MNIST Evaluation</span>
+          </button>
+          <button class="gallery-item gallery-wide reveal reveal-delay-2" type="button" data-gallery-index="5"
+            data-category="Drosophila" data-caption="Simulation / condition comparison">
+            <img src="./assets/images/projects/drosophila-analysis.webp"
+              alt="Biểu đồ so sánh điều kiện mô phỏng Drosophila" width="1520" height="672"
+              loading="lazy"><span class="gallery-label">Drosophila Analysis</span>
+          </button>
+          <button class="gallery-item reveal" type="button" data-gallery-index="6" data-category="Drosophila"
+            data-caption="Dataset browser / imported rollout workspace">
+            <img src="./assets/images/gallery/drosophila-dataset.webp"
+              alt="Màn hình dataset browser của project mô phỏng Drosophila" width="1280" height="720"
+              loading="lazy"><span class="gallery-label">Drosophila Dataset</span>
+          </button>
+          <button class="gallery-item reveal reveal-delay-1" type="button" data-gallery-index="7"
+            data-category="Drosophila" data-caption="Workspace / computational research app">
+            <img src="./assets/images/gallery/drosophila-workspace.webp"
+              alt="Không gian làm việc của ứng dụng mô phỏng Drosophila" width="1280" height="720"
+              loading="lazy"><span class="gallery-label">Drosophila Workspace</span>
+          </button>
+        </div>
       </div>
     </section>
     <div class="lightbox" id="gallery-lightbox" aria-hidden="true" role="dialog" aria-modal="true"
