@@ -99,7 +99,8 @@ Website dùng đường dẫn tương đối (`./`) nên có thể chạy ở ro
 
 - Ảnh chứng chỉ VNU-EPT trong `assets/images/certificates/vnu-ept-redacted.webp` được tạo từ ảnh người dùng cung cấp và đã che CCCD, ngày sinh, ảnh chân dung cùng các mã định danh trước khi đưa lên web.
 - Ảnh `assets/images/certificates/coursera-data-analytics.webp` được render từ file PDF Google Data Analytics Professional Certificate người dùng cung cấp.
-- Các visual profile, project và gallery còn lại là **local SVG placeholders** được tạo riêng cho bài tập. Khi thay bằng ảnh cá nhân/screenshot project đã được cấp phép, cần cập nhật lại nguồn trong README.
+- Ảnh project được tối ưu thành WebP từ các repository GitHub của tác giả: [Drosophila analysis figure](https://github.com/TanVi3001/drosophila-pd-flygym-platform/blob/main/results/analysis/figures/e2_condition_comparison.png), [MNIST notebook](https://github.com/TanVi3001/MNIST_MLP_Pytorch/blob/main/Pytorch.ipynb) và [Smart Supermarket revenue dashboard](https://github.com/TanVi3001/SieuThiThongMinh_Java/pull/33).
+- Các visual profile và gallery còn lại là **local SVG placeholders** được tạo riêng cho bài tập. Khi thay bằng ảnh cá nhân/screenshot project khác, cần cập nhật lại nguồn trong README.
 - Cover Hands-On Machine Learning là ảnh local được cung cấp trong `assets/images/books/MachineLearning.jpg`; các cover còn lại dùng Open Library Covers API theo ISBN: [Clean Code](https://openlibrary.org/isbn/9780132350884), [The Pragmatic Programmer](https://openlibrary.org/isbn/9780135957059) và [Storytelling with Data](https://openlibrary.org/books/OL29297625M/Storytelling_with_Data).
 - Không đưa file gốc chứa thông tin nhạy cảm vào repository. Email, GitHub cá nhân và LinkedIn chưa được cung cấp nên dùng placeholder rõ ràng.
 
