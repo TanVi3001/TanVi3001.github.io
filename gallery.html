@@ -1,9 +1,101 @@
 <!doctype html>
 <html lang="vi">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Gallery các placeholder visuals về university, projects, research, coding và activities."><title>Lê Tấn Vĩ | Gallery</title><link rel="stylesheet" href="./css/style.css"><link rel="stylesheet" href="./css/responsive.css"><script src="./js/main.js" defer></script><script src="./js/gallery.js" defer></script></head>
-<body data-page="gallery"><a class="skip-link" href="#main-content">Bỏ qua đến nội dung chính</a><header class="site-header"><div class="container nav-shell"><a class="brand" href="./index.html" aria-label="Lê Tấn Vĩ, về trang chủ"><span class="brand-mark">&lt;/&gt;</span><span>LÊ TẤN VĨ</span></a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation"><span class="sr-only">Mở menu</span><span></span><span></span></button><nav id="main-navigation" class="main-nav" aria-label="Điều hướng chính"><a href="./index.html" data-page-link="home">Home</a><a href="./index.html#about" data-page-link="about">About</a><a href="./projects.html" data-page-link="projects">Projects</a><a href="./experience.html" data-page-link="experience">Experience</a><a href="./hobbies.html" data-page-link="hobbies">Hobbies</a><a href="./skills.html" data-page-link="skills">Skills</a><a href="./books.html" data-page-link="books">Books</a><a href="./certificates.html" data-page-link="certificates">Certificates</a><a href="./gallery.html" data-page-link="gallery">Gallery</a></nav></div></header>
-  <main id="main-content"><section class="page-hero container section-space"><p class="eyebrow">08 / GALLERY</p><h1>Snapshots of<br><span>the process.</span></h1><p class="page-lead">Placeholder visuals cho những category mình muốn lưu lại: University, Projects, Research, Coding và Activities.</p></section><section class="section-space section-border"><div class="container"><div class="gallery-toolbar"><p><span>08</span> frames / click to expand</p><p>Use ← → to navigate</p></div><div class="gallery-grid"><button class="gallery-item gallery-tall reveal" type="button" data-gallery-index="0" data-category="University" data-caption="University / learning environment"><img src="./assets/images/gallery/university.svg" alt="Placeholder không gian đại học" width="900" height="1200" loading="lazy"><span class="gallery-label">University</span></button><button class="gallery-item reveal reveal-delay-1" type="button" data-gallery-index="1" data-category="Projects" data-caption="Projects / systems in progress"><img src="./assets/images/gallery/projects.svg" alt="Placeholder giao diện project và hệ thống" width="900" height="675" loading="lazy"><span class="gallery-label">Projects</span></button><button class="gallery-item gallery-wide reveal reveal-delay-2" type="button" data-gallery-index="2" data-category="Research" data-caption="Research / computational thinking"><img src="./assets/images/gallery/research.svg" alt="Placeholder research visualization" width="1200" height="900" loading="lazy"><span class="gallery-label">Research</span></button><button class="gallery-item reveal" type="button" data-gallery-index="3" data-category="Coding" data-caption="Coding / build and debug"><img src="./assets/images/gallery/coding.svg" alt="Placeholder màn hình coding" width="900" height="1200" loading="lazy"><span class="gallery-label">Coding</span></button><button class="gallery-item reveal reveal-delay-1" type="button" data-gallery-index="4" data-category="Activities" data-caption="Activities / study group"><img src="./assets/images/gallery/activities.svg" alt="Placeholder hoạt động nhóm học tập" width="900" height="1200" loading="lazy"><span class="gallery-label">Activities</span></button><button class="gallery-item gallery-wide reveal reveal-delay-2" type="button" data-gallery-index="5" data-category="Research" data-caption="Research / simulation workflow"><img src="./assets/images/gallery/simulation.svg" alt="Placeholder simulation workflow" width="1200" height="900" loading="lazy"><span class="gallery-label">Simulation</span></button><button class="gallery-item reveal" type="button" data-gallery-index="6" data-category="University" data-caption="University / notes and references"><img src="./assets/images/gallery/notes.svg" alt="Placeholder sổ tay và tài liệu học tập" width="900" height="1200" loading="lazy"><span class="gallery-label">Notes</span></button><button class="gallery-item reveal reveal-delay-1" type="button" data-gallery-index="7" data-category="Activities" data-caption="Activities / a quiet reset"><img src="./assets/images/gallery/reset.svg" alt="Placeholder góc nghỉ và suy nghĩ" width="900" height="1200" loading="lazy"><span class="gallery-label">Reset</span></button></div></div></section>
-    <div class="lightbox" id="gallery-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption"><button class="lightbox-close" type="button" aria-label="Đóng gallery">×</button><button class="lightbox-prev" type="button" aria-label="Ảnh trước">←</button><figure><img id="lightbox-image" src="" alt=""><figcaption id="lightbox-caption"></figcaption></figure><button class="lightbox-next" type="button" aria-label="Ảnh tiếp theo">→</button></div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Gallery các placeholder visuals về university, projects, research, coding và activities.">
+  <title>Lê Tấn Vĩ | Gallery</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <script src="./js/main.js" defer></script>
+  <script src="./js/gallery.js" defer></script>
+</head>
+
+<body data-page="gallery"><a class="skip-link" href="#main-content">Bỏ qua đến nội dung chính</a>
+  <header class="site-header">
+    <div class="container nav-shell"><a class="brand" href="./index.html" aria-label="Lê Tấn Vĩ, về trang chủ"><span
+          class="brand-mark">&lt;/&gt;</span><span>LÊ TẤN VĨ</span></a><button class="nav-toggle" type="button"
+        aria-expanded="false" aria-controls="main-navigation"><span class="sr-only">Mở
+          menu</span><span></span><span></span></button>
+      <nav id="main-navigation" class="main-nav" aria-label="Điều hướng chính"><a href="./index.html"
+          data-page-link="home">Home</a><a href="./index.html#about" data-page-link="about">About</a><a
+          href="./projects.html" data-page-link="projects">Projects</a><a href="./experience.html"
+          data-page-link="experience">Experience</a><a href="./hobbies.html" data-page-link="hobbies">Hobbies</a><a
+          href="./skills.html" data-page-link="skills">Skills</a><a href="./books.html"
+          data-page-link="books">Books</a><a href="./certificates.html" data-page-link="certificates">Certificates</a><a
+          href="./gallery.html" data-page-link="gallery">Gallery</a></nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <section class="page-hero container section-space">
+      <p class="eyebrow">08 / GALLERY</p>
+      <h1>Snapshots of<br><span>the process.</span></h1>
+      <p class="page-lead">Placeholder visuals cho những category mình muốn lưu lại: University, Projects, Research,
+        Coding và Activities.</p>
+    </section>
+    <section class="section-space section-border">
+      <div class="container">
+        <div class="gallery-toolbar">
+          <p><span>08</span> frames / click to expand</p>
+          <p>Use ← → to navigate</p>
+        </div>
+        <div class="gallery-grid"><button class="gallery-item gallery-tall reveal" type="button" data-gallery-index="0"
+            data-category="University" data-caption="University / learning environment"><img
+              src="./assets/images/gallery/university.svg" alt="Placeholder không gian đại học" width="900"
+              height="1200" loading="lazy"><span class="gallery-label">University</span></button><button
+            class="gallery-item reveal reveal-delay-1" type="button" data-gallery-index="1" data-category="Projects"
+            data-caption="Projects / systems in progress"><img src="./assets/images/gallery/projects.svg"
+              alt="Placeholder giao diện project và hệ thống" width="900" height="675" loading="lazy"><span
+              class="gallery-label">Projects</span></button><button
+            class="gallery-item gallery-wide reveal reveal-delay-2" type="button" data-gallery-index="2"
+            data-category="Research" data-caption="Research / computational thinking"><img
+              src="./assets/images/gallery/research.svg" alt="Placeholder research visualization" width="1200"
+              height="900" loading="lazy"><span class="gallery-label">Research</span></button><button
+            class="gallery-item reveal" type="button" data-gallery-index="3" data-category="Coding"
+            data-caption="Coding / build and debug"><img src="./assets/images/gallery/coding.svg"
+              alt="Placeholder màn hình coding" width="900" height="1200" loading="lazy"><span
+              class="gallery-label">Coding</span></button><button class="gallery-item reveal reveal-delay-1"
+            type="button" data-gallery-index="4" data-category="Activities" data-caption="Activities / study group"><img
+              src="./assets/images/gallery/activities.svg" alt="Placeholder hoạt động nhóm học tập" width="900"
+              height="1200" loading="lazy"><span class="gallery-label">Activities</span></button><button
+            class="gallery-item gallery-wide reveal reveal-delay-2" type="button" data-gallery-index="5"
+            data-category="Research" data-caption="Research / simulation workflow"><img
+              src="./assets/images/gallery/simulation.svg" alt="Placeholder simulation workflow" width="1200"
+              height="900" loading="lazy"><span class="gallery-label">Simulation</span></button><button
+            class="gallery-item reveal" type="button" data-gallery-index="6" data-category="University"
+            data-caption="University / notes and references"><img src="./assets/images/gallery/notes.svg"
+              alt="Placeholder sổ tay và tài liệu học tập" width="900" height="1200" loading="lazy"><span
+              class="gallery-label">Notes</span></button><button class="gallery-item reveal reveal-delay-1"
+            type="button" data-gallery-index="7" data-category="Activities"
+            data-caption="Activities / a quiet reset"><img src="./assets/images/gallery/reset.svg"
+              alt="Placeholder góc nghỉ và suy nghĩ" width="900" height="1200" loading="lazy"><span
+              class="gallery-label">Reset</span></button></div>
+      </div>
+    </section>
+    <div class="lightbox" id="gallery-lightbox" aria-hidden="true" role="dialog" aria-modal="true"
+      aria-labelledby="lightbox-caption"><button class="lightbox-close" type="button"
+        aria-label="Đóng gallery">×</button><button class="lightbox-prev" type="button"
+        aria-label="Ảnh trước">←</button>
+      <figure><img id="lightbox-image" src="" alt="">
+        <figcaption id="lightbox-caption"></figcaption>
+      </figure><button class="lightbox-next" type="button" aria-label="Ảnh tiếp theo">→</button>
+    </div>
   </main>
-  <footer class="site-footer"><div class="container footer-main"><div><a class="brand brand-light" href="./index.html"><span class="brand-mark">&lt;/&gt;</span><span>LÊ TẤN VĨ</span></a><p>Information Systems Student<br>University of Information Technology – VNU-HCM</p></div><div class="footer-links"><a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a><a href="mailto:your.email@example.com">Email</a><a href="#">LinkedIn</a></div></div><div class="container footer-bottom"><span>© 2026 Lê Tấn Vĩ</span><span>Built with HTML5, CSS3 &amp; JavaScript</span></div></footer>
-</body></html>
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div><a class="brand brand-light" href="./index.html"><span class="brand-mark">&lt;/&gt;</span><span>LÊ TẤN
+            VĨ</span></a>
+        <p>Information Systems Student<br>University of Information Technology – VNU-HCM</p>
+      </div>
+      <div class="footer-links"><a href="https://github.com/yourusername" target="_blank"
+          rel="noopener noreferrer">GitHub</a><a href="mailto:your.email@example.com">Email</a><a href="#">LinkedIn</a>
+      </div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Lê Tấn Vĩ</span><span>Built with HTML5, CSS3 &amp;
+        JavaScript</span></div>
+  </footer>
+</body>
+
+</html>

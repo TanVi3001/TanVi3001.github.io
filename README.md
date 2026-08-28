@@ -98,7 +98,7 @@ Website dùng đường dẫn tương đối (`./`) nên có thể chạy ở ro
 ## Image and book sources
 
 - Profile, project, certificate và gallery visuals hiện là **local SVG placeholders** được tạo riêng cho bài tập. Thay bằng ảnh cá nhân/screenshot project đã được cấp phép trong thư mục `assets/images/` khi có.
-- Metadata/link sách tham khảo từ [Open Library](https://openlibrary.org/). Các cover đang dùng là placeholder local để website chạy offline.
+- Các cover sách được tải từ Open Library Covers API theo ISBN: [Hands-On Machine Learning](https://openlibrary.org/books/OL38327656M/Hands-On_Machine_Learning_with_Scikit-Learn_Keras_and_TensorFlow), [Clean Code](https://openlibrary.org/isbn/9780132350884), [The Pragmatic Programmer](https://openlibrary.org/isbn/9780135957059) và [Storytelling with Data](https://openlibrary.org/books/OL29297625M/Storytelling_with_Data).
 - Không sử dụng thông tin nhạy cảm. Email, GitHub cá nhân và LinkedIn chưa được cung cấp nên dùng placeholder rõ ràng.
 
 ## License
