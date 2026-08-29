@@ -10,7 +10,7 @@ Data → Software → AI → Research
 
 ## Nội dung
 
-- Home / About — thông tin học tập, định hướng, education và contact placeholder.
+- Home / About — thông tin học tập, định hướng, education và thông tin liên hệ.
 - Projects — Drosophila Parkinson's Disease Simulation, Smart Supermarket Management System và MNIST Handwritten Digit Recognition.
 - Experience — timeline hoạt động nghiên cứu và dự án học thuật, không bịa công ty hoặc internship.
 - Hobbies — coding, AI, research, data analysis, learning và experimentation.
@@ -113,7 +113,7 @@ Website dùng đường dẫn tương đối (`./`) nên có thể chạy ở ro
 - Ảnh project được tối ưu thành WebP từ các repository GitHub của tác giả: [Drosophila analysis figure](https://github.com/TanVi3001/drosophila-pd-flygym-platform/blob/main/results/analysis/figures/e2_condition_comparison.png), [MNIST notebook](https://github.com/TanVi3001/MNIST_MLP_Pytorch/blob/main/Pytorch.ipynb) và [Smart Supermarket revenue dashboard](https://github.com/TanVi3001/SieuThiThongMinh_Java/pull/33).
 - Ảnh đại diện `assets/images/profile.webp` do người dùng cung cấp. Các ảnh gallery dùng lại các ảnh project đã được ghi nguồn ở trên hoặc ảnh trích từ các repository GitHub tương ứng.
 - Cover Hands-On Machine Learning là ảnh local được cung cấp trong `assets/images/books/MachineLearning.jpg`; các cover còn lại dùng Open Library Covers API theo ISBN: [Clean Code](https://openlibrary.org/isbn/9780132350884), [The Pragmatic Programmer](https://openlibrary.org/isbn/9780135957059) và [Storytelling with Data](https://openlibrary.org/books/OL29297625M/Storytelling_with_Data).
-- Không đưa file gốc chứa thông tin nhạy cảm vào repository. Email, GitHub cá nhân và LinkedIn chưa được cung cấp nên dùng placeholder rõ ràng.
+- Không đưa file gốc chứa thông tin nhạy cảm vào repository. Thông tin liên hệ công khai gồm GitHub, email và LinkedIn do chủ project cung cấp.
 
 ## License
 
