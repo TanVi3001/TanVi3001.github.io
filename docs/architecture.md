@@ -81,7 +81,7 @@ Người dùng tương tác: navbar, scroll reveal, lightbox
 
 - `style.css` chứa style chung và component.
 - `responsive.css` chứa media query.
-- Không dùng table để bố cục chính; layout dùng Grid/Flexbox.
+- Không dùng table để dựng bố cục chính; layout dùng Grid/Flexbox. Riêng `schedule.html` dùng `<table>` cho dữ liệu thời khóa biểu vì dữ liệu có quan hệ hàng/cột.
 - Trạng thái tương tác dùng `:hover`, `:focus-visible` và class trạng thái.
 
 ### JavaScript

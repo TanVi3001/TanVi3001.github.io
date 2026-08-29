@@ -136,7 +136,45 @@ Các ảnh project hiện dùng gồm:
 
 Project dùng `<dl>` cho thông tin chứng chỉ và dùng các `<span>` trong `.tag-row`, `.pill-cloud` để tạo badge công nghệ/kỹ năng.
 
-## 7. Gallery và lightbox
+## 7. Bảng thời khóa biểu
+
+Trang `schedule.html` dùng bảng HTML cho dữ liệu lịch học. Đây là trường hợp phù hợp để dùng `<table>`, vì nội dung có quan hệ theo hàng và cột; các bố cục lớn của website vẫn dùng CSS Grid/Flexbox.
+
+```html
+<table class="schedule-board">
+  <thead>
+    <tr>
+      <th scope="col">Tiết / Thứ</th>
+      <th scope="col">Thứ 2</th>
+      <th scope="col">Thứ 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Tiết 1</th>
+      <td rowspan="5">Phát triển ứng dụng web</td>
+      <td rowspan="4">Hoạch định nguồn lực doanh nghiệp</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+| Thành phần | Chức năng trong `schedule.html` |
+|---|---|
+| `<table>` | Bao quanh toàn bộ dữ liệu thời khóa biểu |
+| `<thead>` | Chứa hàng tiêu đề các ngày trong tuần |
+| `<tbody>` | Chứa 10 hàng tương ứng với 10 tiết học |
+| `<tr>` | Tạo một hàng trong bảng |
+| `<th scope="col">` | Tiêu đề cột: Thứ 2 đến Thứ 7 |
+| `<th scope="row">` | Tiêu đề hàng: Tiết 1 đến Tiết 10 |
+| `<td>` | Một ô trống hoặc ô chứa thông tin môn học |
+| `rowspan="n"` | Gộp một ô qua `n` tiết liên tiếp, ví dụ môn học 5 tiết |
+| `colspan="n"` | Gộp một ô qua `n` cột; có thể dùng khi tạo ghi chú phủ nhiều ngày |
+| `<caption>` | Mô tả ngắn cho bảng, hỗ trợ accessibility |
+
+`rowspan` giúp một môn học chiếm đúng chiều cao của nhiều tiết như ví dụ gộp hàng trong slide. Các ô còn lại vẫn được khai báo bằng `<td>` để trình duyệt và trình đọc màn hình hiểu đúng cấu trúc bảng.
+
+## 8. Gallery và lightbox
 
 Mỗi ảnh gallery là một button để có thể click và dùng bàn phím:
 
@@ -174,11 +212,10 @@ Modal lightbox dùng các thành phần:
 
 `<figure>` gom ảnh với chú thích; `<figcaption>` chứa caption; `role="dialog"` và các thuộc tính `aria-*` mô tả modal cho công cụ hỗ trợ.
 
-## 8. Skip link và accessibility
+## 9. Skip link và accessibility
 
 ```html
 <a class="skip-link" href="#main-content">Bỏ qua đến nội dung chính</a>
 ```
 
 Skip link cho phép người dùng bàn phím bỏ qua navbar. Các nút có `aria-label`, navbar có `aria-label`, ảnh có `alt`, và heading đi theo thứ bậc `h1 > h2 > h3`.
-
