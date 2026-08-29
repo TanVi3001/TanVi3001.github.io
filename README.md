@@ -17,7 +17,8 @@ Data → Software → AI → Research
 - Skills — programming self-assessment, Data/AI, Database, Development, Research/Simulation và soft skills.
 - Books — 3 cuốn sách về software development và machine learning.
 - Certificates — VNU-EPT B1.3 và Google Data Analytics Professional Certificate.
-- Gallery — CSS Grid với 8 placeholder visuals, lightbox, previous/next, Escape và phím mũi tên.
+- Gallery — CSS Grid với 8 ảnh project, lightbox, previous/next, Escape và phím mũi tên.
+- Schedule — thời khóa biểu theo ngày, tiết học và các lớp không cố định.
 
 ## Technologies
 
@@ -41,6 +42,7 @@ portfolio/
 ├── books.html
 ├── certificates.html
 ├── gallery.html
+├── schedule.html
 ├── css/
 │   ├── style.css
 │   └── responsive.css

@@ -18,7 +18,7 @@ Project là website tĩnh đa trang, không dùng framework lớn:
 - JavaScript thuần xử lý navbar, highlight trang hiện tại, animation reveal và gallery lightbox.
 - Ảnh project, gallery và chứng chỉ được lưu local, ưu tiên WebP.
 
-## 8 trang hiện có
+## 9 trang hiện có
 
 | File | Chức năng |
 |---|---|
@@ -30,8 +30,8 @@ Project là website tĩnh đa trang, không dùng framework lớn:
 | `books.html` | Danh sách sách yêu thích |
 | `certificates.html` | Chứng chỉ VNU-EPT và Google Data Analytics |
 | `gallery.html` | Gallery 8 ảnh project với lightbox |
+| `schedule.html` | Thời khóa biểu theo ngày, tiết học và các lớp không cố định |
 
 ## Cách đọc tài liệu
 
 Khi muốn sửa nội dung, xem phần HTML. Khi muốn sửa màu, khoảng cách hoặc breakpoint, xem phần CSS. Khi muốn sửa menu mobile, animation hoặc phóng to ảnh, xem phần JavaScript tương ứng.
-

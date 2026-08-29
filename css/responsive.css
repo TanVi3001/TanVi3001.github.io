@@ -370,6 +370,19 @@
         font-size: 11px
     }
 
+    .schedule-shell {
+        padding: 14px
+    }
+
+    .schedule-toolbar {
+        display: block
+    }
+
+    .schedule-stats {
+        justify-content: flex-start;
+        margin-top: 14px
+    }
+
     .lightbox {
         grid-template-columns: 38px minmax(0, 1fr) 38px;
         gap: 6px;
@@ -438,6 +451,14 @@
         bottom: 8px;
         left: 9px;
         font-size: 10px
+    }
+
+    .schedule-shell {
+        padding: 11px
+    }
+
+    .schedule-course h3 {
+        font-size: 11px
     }
 
     .lightbox-prev,

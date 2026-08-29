@@ -12,6 +12,7 @@ BT/
 ├── books.html
 ├── certificates.html
 ├── gallery.html
+├── schedule.html
 ├── css/
 │   ├── style.css
 │   └── responsive.css
@@ -169,4 +170,3 @@ Sau đó mở <http://localhost:8000>.
 - Không thêm thông tin nhạy cảm vào asset public.
 - Sau khi đổi class, kiểm tra cả `style.css`, `responsive.css` và JavaScript có liên quan.
 - Kiểm tra mobile ở các mốc `<576px`, `576–767px`, `768–991px` và desktop `≥992px`.
-
