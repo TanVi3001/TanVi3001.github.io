@@ -19,6 +19,10 @@ BT/
 ├── js/
 │   ├── main.js
 │   └── gallery.js
+├── database/
+│   ├── schedule_schema.sql
+│   ├── schedule_seed.sql
+│   └── README.md
 ├── assets/
 │   ├── images/
 │   │   ├── profile.webp
@@ -32,7 +36,8 @@ BT/
 │   ├── html.md
 │   ├── css.md
 │   ├── javascript.md
-│   └── architecture.md
+│   ├── architecture.md
+│   └── database.md
 └── README.md
 ```
 
@@ -89,6 +94,7 @@ Người dùng tương tác: navbar, scroll reveal, lightbox
 - `main.js` xử lý hành vi có trên nhiều trang.
 - `gallery.js` chỉ xử lý hành vi đặc thù của gallery.
 - Code có guard clause để script không lỗi khi thiếu component.
+- `database/` chứa mô hình SQL độc lập; static site hiện chưa kết nối trực tiếp database.
 
 ## 5. Luồng navbar
 

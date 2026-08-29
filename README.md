@@ -19,6 +19,7 @@ Data → Software → AI → Research
 - Certificates — VNU-EPT B1.3 và Google Data Analytics Professional Certificate.
 - Gallery — CSS Grid với 8 ảnh project, lightbox, previous/next, Escape và phím mũi tên.
 - Schedule — thời khóa biểu theo ngày, tiết học và các lớp không cố định.
+- Database — schema SQL và sơ đồ ER Mermaid cho database thời khóa biểu.
 
 ## Technologies
 
@@ -43,6 +44,10 @@ portfolio/
 ├── certificates.html
 ├── gallery.html
 ├── schedule.html
+├── database/
+│   ├── schedule_schema.sql
+│   ├── schedule_seed.sql
+│   └── README.md
 ├── css/
 │   ├── style.css
 │   └── responsive.css
@@ -99,7 +104,7 @@ Website dùng đường dẫn tương đối (`./`) nên có thể chạy ở ro
 - Gallery button keyboard-accessible; modal có Close, Escape, Previous, Next, ArrowLeft và ArrowRight.
 - Focus state rõ ràng, màu navy/cyan/purple có tương phản tốt và có `prefers-reduced-motion`.
 - Layout dùng Grid/Flexbox và media queries cho mobile `<576px`, tablet `768–991px`, desktop `≥992px`.
-- Không dùng table cho layout và không tải thư viện JavaScript lớn.
+- Không dùng table để dựng layout; riêng schedule dùng table cho dữ liệu dạng hàng/cột. Không tải thư viện JavaScript lớn.
 
 ## Image and book sources
 

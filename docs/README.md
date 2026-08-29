@@ -8,6 +8,7 @@ Tài liệu này tóm tắt đúng các thẻ HTML, quy tắc CSS, hàm JavaScri
 - [CSS, layout và responsive](./css.md)
 - [JavaScript, hàm và sự kiện](./javascript.md)
 - [Kiến trúc thư mục và luồng hoạt động](./architecture.md)
+- [Thiết kế database thời khóa biểu](./database.md)
 
 ## Tổng quan nhanh
 
@@ -31,6 +32,7 @@ Project là website tĩnh đa trang, không dùng framework lớn:
 | `certificates.html` | Chứng chỉ VNU-EPT và Google Data Analytics |
 | `gallery.html` | Gallery 8 ảnh project với lightbox |
 | `schedule.html` | Thời khóa biểu theo ngày, tiết học và các lớp không cố định |
+| `database/` | Schema SQL và dữ liệu mẫu cho database thời khóa biểu |
 
 ## Cách đọc tài liệu
 
