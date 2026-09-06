@@ -836,6 +836,12 @@ h3 {
     color: var(--muted)
 }
 
+.timeline-company {
+    margin: 10px 0 4px;
+    color: var(--navy);
+    font-weight: 700
+}
+
 .timeline-role strong {
     color: var(--navy)
 }

@@ -44,6 +44,7 @@ portfolio/
 ├── certificates.html
 ├── gallery.html
 ├── schedule.html
+├── SUBMISSION.txt
 ├── database/
 │   ├── schedule_schema.sql
 │   ├── schedule_seed.sql
@@ -117,4 +118,4 @@ Website dùng đường dẫn tương đối (`./`) nên có thể chạy ở ro
 
 ## License
 
-Code có thể phát hành theo **MIT License**. Ảnh chứng chỉ là tài liệu do người dùng cung cấp, chỉ dùng trong portfolio cá nhân. Các placeholder visuals trong `assets/images/` phục vụ mục đích học tập; khi thay bằng ảnh cá nhân hoặc tài nguyên public, cần kiểm tra và ghi đúng license của từng tài nguyên.
+Code có thể phát hành theo **MIT License**. Ảnh chứng chỉ là tài liệu do người dùng cung cấp, chỉ dùng trong portfolio cá nhân. Các asset hình ảnh trong `assets/images/` là ảnh do người dùng cung cấp hoặc được trích từ nguồn public đã ghi ở trên; khi thay asset mới cần kiểm tra và ghi đúng license.
