@@ -17,7 +17,7 @@ Data → Software → AI → Research
 - Skills — programming self-assessment, Data/AI, Database, Development, Research/Simulation và soft skills.
 - Books — 3 cuốn sách về software development và machine learning.
 - Certificates — VNU-EPT B1.3 và Google Data Analytics Professional Certificate.
-- Gallery — CSS Grid với 8 ảnh project, lightbox, previous/next, Escape và phím mũi tên.
+- Gallery — CSS Grid với 6 ảnh vũ trụ do người dùng cung cấp, lightbox, previous/next, Escape và phím mũi tên.
 - Schedule — thời khóa biểu theo ngày, tiết học và các lớp không cố định.
 - Database — schema SQL và sơ đồ ER Mermaid cho database thời khóa biểu.
 
@@ -112,7 +112,7 @@ Website dùng đường dẫn tương đối (`./`) nên có thể chạy ở ro
 - Ảnh chứng chỉ VNU-EPT trong `assets/images/certificates/vnu-ept-redacted.webp` được tạo từ ảnh người dùng cung cấp và đã che CCCD, ngày sinh, ảnh chân dung cùng các mã định danh trước khi đưa lên web.
 - Ảnh `assets/images/certificates/coursera-data-analytics.webp` được render từ file PDF Google Data Analytics Professional Certificate người dùng cung cấp.
 - Ảnh project được tối ưu thành WebP từ các repository GitHub của tác giả: [Drosophila analysis figure](https://github.com/TanVi3001/drosophila-pd-flygym-platform/blob/main/results/analysis/figures/e2_condition_comparison.png), [MNIST notebook](https://github.com/TanVi3001/MNIST_MLP_Pytorch/blob/main/Pytorch.ipynb) và [Smart Supermarket revenue dashboard](https://github.com/TanVi3001/SieuThiThongMinh_Java/pull/33).
-- Ảnh đại diện `assets/images/profile.webp` do người dùng cung cấp. Các ảnh gallery dùng lại các ảnh project đã được ghi nguồn ở trên hoặc ảnh trích từ các repository GitHub tương ứng.
+- Ảnh đại diện `assets/images/profile.webp` và 6 ảnh gallery `space-01.webp` đến `space-06.webp` do người dùng cung cấp. Các ảnh project dùng trong Projects vẫn được ghi nguồn từ các repository GitHub tương ứng.
 - Cover Hands-On Machine Learning là ảnh local được cung cấp trong `assets/images/books/MachineLearning.jpg`; các cover còn lại dùng Open Library Covers API theo ISBN: [Clean Code](https://openlibrary.org/isbn/9780132350884), [The Pragmatic Programmer](https://openlibrary.org/isbn/9780135957059) và [Storytelling with Data](https://openlibrary.org/books/OL29297625M/Storytelling_with_Data).
 - Không đưa file gốc chứa thông tin nhạy cảm vào repository. Thông tin liên hệ công khai gồm GitHub, email và LinkedIn do chủ project cung cấp.
 

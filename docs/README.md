@@ -30,7 +30,7 @@ Project là website tĩnh đa trang, không dùng framework lớn:
 | `skills.html` | Kỹ năng cứng, kỹ năng mềm và thanh đánh giá |
 | `books.html` | Danh sách sách yêu thích |
 | `certificates.html` | Chứng chỉ VNU-EPT và Google Data Analytics |
-| `gallery.html` | Gallery 8 ảnh project với lightbox |
+| `gallery.html` | Gallery 6 ảnh vũ trụ với lightbox |
 | `schedule.html` | Thời khóa biểu theo ngày, tiết học và các lớp không cố định |
 | `database/` | Schema SQL và dữ liệu mẫu cho database thời khóa biểu |
 
