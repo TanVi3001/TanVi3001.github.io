@@ -1,0 +1,8 @@
+
+# Next.js source and generated build cache
+web/node_modules/
+web/.next/
+web/out/
+web/public/assets/
+web/next-env.d.ts
+web/*.tsbuildinfo

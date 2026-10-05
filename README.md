@@ -21,15 +21,26 @@ Data → Software → AI → Research
 - Schedule — thời khóa biểu theo ngày, tiết học và các lớp không cố định.
 - Database — schema SQL và sơ đồ ER Mermaid cho database thời khóa biểu.
 
-## Technologies
+## Framework & giao diện
 
-```text
-HTML5
-CSS3
-JavaScript thuần
-Git / GitHub
-GitHub Pages
+Next.js 15 (static export), React 19, Tailwind CSS 4 và Three.js. Giao diện được phát triển từ [Neobrutalism Portfolio](https://github.com/neobrutalism-templates/portfolio), giấy phép MIT lưu ở `web/TEMPLATE-LICENSE`. Phong cách sáng, viền đen và bóng cứng tham khảo Lab Blockchain; nội dung và ảnh là từ portfolio hiện có.
+
+Hero neural network 3D có ba chủ đề, tương tác chuột, tạm dừng và đặt lại. Đây là minh họa, không chạy mô hình inference. Có hình thay thế khi WebGL không khả dụng; tự giảm chuyển động theo cài đặt hệ thống và dừng khi ra khỏi màn hình.
+
+## Phát triển & cập nhật
+
+```sh
+cd web
+pnpm install --ignore-scripts
+pnpm dev
+# Kiểm tra và xuất bản tĩnh vào thư mục gốc:
+pnpm typecheck
+pnpm build
+pnpm publish:static
 ```
+
+Mã nguồn framework nằm trong `web/src`; nội dung các trang được giữ trong `web/content`. GitHub Pages tiếp tục phục vụ nhánh main / root. Commit cả mã nguồn và bản xuất tĩnh sau khi build. `.nojekyll` bảo đảm thư mục `_next` được phục vụ; các URL `.html` cũ chuyển tới đường dẫn mới. Không commit `node_modules` hoặc `.next`.
+
 
 ## Project structure
 

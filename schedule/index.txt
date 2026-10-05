@@ -1,0 +1,224 @@
+1:"$Sreact.fragment"
+2:I[7590,["5","static/chunks/5-aa7a38e656f72b50.js","177","static/chunks/app/layout-bb93fc0c06aa1945.js"],"default"]
+3:I[7799,[],""]
+4:I[1563,[],""]
+6:I[1614,[],"OutletBoundary"]
+8:I[2499,[],"AsyncMetadataOutlet"]
+a:I[1614,[],"ViewportBoundary"]
+c:I[1614,[],"MetadataBoundary"]
+d:"$Sreact.suspense"
+f:I[2685,[],""]
+:HL["/_next/static/css/e7ba9176084ffab0.css","style"]
+0:{"P":null,"b":"lKvRBgapSsM-hxcStvpyT","p":"","c":["","schedule",""],"i":false,"f":[[["",{"children":[["slug","schedule","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e7ba9176084ffab0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","children":["$","body",null,{"children":[["$","a",null,{"className":"skip-link","href":"#main-content","children":"Bỏ qua đến nội dung chính"}],["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","footer",null,{"className":"neo-footer","children":[["$","div",null,{"className":"container footer-grid","children":[["$","div",null,{"children":[["$","a",null,{"className":"neo-brand","href":"/","children":[["$","span",null,{"className":"brand-tile","children":"TV"}],"LÊ TẤN VĨ",["$","span",null,{"className":"brand-period","children":"."}]]}],["$","p",null,{"children":["Information Systems · UIT",["$","br",null,{}],"Data → Software → AI → Research"]}]]}],["$","div",null,{"className":"footer-contact","children":[["$","p",null,{"className":"mono-label","children":"LET’S CONNECT"}],["$","a",null,{"href":"mailto:letanvi301@gmail.com","children":"letanvi301@gmail.com ↗"}],["$","div",null,{"children":[["$","a",null,{"href":"https://github.com/TanVi3001","target":"_blank","rel":"noopener noreferrer","children":"GitHub ↗"}],["$","a",null,{"href":"https://www.linkedin.com/in/t%E1%BA%A5n-v%C4%A9-198683355/","target":"_blank","rel":"noopener noreferrer","children":"LinkedIn ↗"}]]}]]}]]}],["$","div",null,{"className":"container footer-credit","children":[["$","span",null,{"children":"© 2026 Lê Tấn Vĩ"}],["$","span",null,{"children":"Built with curiosity & a little code."}]]}]]}]]}]}]]}],{"children":[["slug","schedule","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$L7",["$","$L8",null,{"promise":"$@9"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$La",null,{"children":"$Lb"}],null],["$","$Lc",null,{"children":["$","div",null,{"hidden":true,"children":["$","$d",null,{"fallback":null,"children":"$Le"}]}]}]]}],false]],"m":"$undefined","G":["$f",[]],"s":false,"S":true}
+10:T2b1d,<section class="page-hero container section-space">
+      <p class="eyebrow">09 / SCHEDULE</p>
+      <h1>Plan the week.<br><span>Keep learning.</span></h1>
+      <p class="page-lead">Một góc nhỏ để theo dõi lịch học, các môn đang triển khai và nhịp làm việc trong tuần.</p>
+    </section>
+
+    <section class="section-space section-border">
+      <div class="container">
+        <div class="schedule-shell">
+          <div class="schedule-toolbar">
+            <div>
+              <p class="schedule-kicker">Thời khóa biểu — <span>Phương án 1</span></p>
+              <h2>Tuần học hiện tại</h2>
+            </div>
+            <div class="schedule-stats" aria-label="Tóm tắt lịch học">
+              <span>8 lớp</span>
+              <span>17 tín chỉ</span>
+            </div>
+          </div>
+          <p class="schedule-hint">Kéo ngang trên màn hình nhỏ để xem đủ các ngày trong tuần.</p>
+
+          <div class="schedule-scroll">
+            <table class="schedule-board" aria-label="Thời khóa biểu từ thứ Hai đến thứ Bảy">
+              <caption class="sr-only">Thời khóa biểu học tập gồm 10 tiết từ thứ Hai đến thứ Bảy</caption>
+              <thead>
+                <tr>
+                  <th class="schedule-corner" scope="col">Tiết / Thứ</th>
+                  <th class="schedule-day" scope="col">Thứ 2</th>
+                  <th class="schedule-day" scope="col">Thứ 3</th>
+                  <th class="schedule-day" scope="col">Thứ 4</th>
+                  <th class="schedule-day" scope="col">Thứ 5</th>
+                  <th class="schedule-day" scope="col">Thứ 6</th>
+                  <th class="schedule-day" scope="col">Thứ 7</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="schedule-period" scope="row"><strong>Tiết 1</strong><small>7:30–8:15</small></th>
+                  <td class="schedule-slot" rowspan="5">
+                    <div class="schedule-course schedule-course-orange">
+                      <div>
+                        <div class="schedule-course-top"><span class="schedule-course-code">IS207.R12.1</span><span
+                            class="schedule-course-badge">HT1</span></div>
+                        <h3>Phát triển ứng dụng web</h3>
+                        <p>👤 Vũ Minh Sang<br>📅 21/09 – 19/12</p>
+                      </div>
+                      <p class="schedule-course-meta"><span>📍 B3.04</span><span>⏱ Tiết 1–5</span></p>
+                    </div>
+                  </td>
+                  <td class="schedule-slot" rowspan="4">
+                    <div class="schedule-course schedule-course-orange">
+                      <div>
+                        <div class="schedule-course-top"><span class="schedule-course-code">IS336.R12</span><span
+                            class="schedule-course-badge">LT</span></div>
+                        <h3>Hoạch định nguồn lực doanh nghiệp</h3>
+                        <p>👤 Vân Đức Sơn Hà<br>📅 07/09 – 28/11</p>
+                      </div>
+                      <p class="schedule-course-meta"><span>📍 B4.12</span><span>⏱ Tiết 1–4</span></p>
+                    </div>
+                  </td>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot" rowspan="4">
+                    <div class="schedule-course schedule-course-green">
+                      <div>
+                        <div class="schedule-course-top"><span class="schedule-course-code">DS311.R11</span><span
+                            class="schedule-course-badge">LT</span></div>
+                        <h3>Kỹ năng nghiên cứu và viết báo cáo khoa học</h3>
+                        <p>👤 Nguyễn Văn Kiệt<br>📅 07/09 – 28/11</p>
+                      </div>
+                      <p class="schedule-course-meta"><span>📍 C213</span><span>⏱ Tiết 1–4</span></p>
+                    </div>
+                  </td>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                </tr>
+                <tr>
+                  <th class="schedule-period" scope="row"><strong>Tiết 2</strong><small>8:15–9:00</small></th>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                </tr>
+                <tr>
+                  <th class="schedule-period" scope="row"><strong>Tiết 3</strong><small>9:00–9:45</small></th>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                </tr>
+                <tr>
+                  <th class="schedule-period" scope="row"><strong>Tiết 4</strong><small>10:00–10:45</small></th>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                </tr>
+                <tr>
+                  <th class="schedule-period" scope="row"><strong>Tiết 5</strong><small>10:45–11:30</small></th>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                </tr>
+                <tr>
+                  <th class="schedule-period" scope="row"><strong>Tiết 6</strong><small>13:00–13:45</small></th>
+                  <td class="schedule-slot" rowspan="4">
+                    <div class="schedule-course schedule-course-slate">
+                      <div>
+                        <div class="schedule-course-top"><span class="schedule-course-code">IS207.R12.1</span><span
+                            class="schedule-course-badge">LT</span></div>
+                        <h3>Phát triển ứng dụng web</h3>
+                        <p>👤 Vũ Minh Sang<br>📅 07/09 – 28/11</p>
+                      </div>
+                      <p class="schedule-course-meta"><span>📍 B4.12</span><span>⏱ Tiết 6–9</span></p>
+                    </div>
+                  </td>
+                  <td class="schedule-slot" rowspan="4">
+                    <div class="schedule-course schedule-course-orange">
+                      <div>
+                        <div class="schedule-course-top"><span class="schedule-course-code">IS403.R11</span><span
+                            class="schedule-course-badge">LT</span></div>
+                        <h3>Phân tích dữ liệu kinh doanh</h3>
+                        <p>👤 Dương Phi Long<br>📅 07/09 – 28/11</p>
+                      </div>
+                      <p class="schedule-course-meta"><span>📍 B1.10</span><span>⏱ Tiết 6–9</span></p>
+                    </div>
+                  </td>
+                  <td class="schedule-slot" rowspan="3">
+                    <div class="schedule-course schedule-course-cyan">
+                      <div>
+                        <div class="schedule-course-top"><span class="schedule-course-code">PE231.R17</span><span
+                            class="schedule-course-badge">LT</span></div>
+                        <h3>Giáo dục thể chất 1</h3>
+                        <p>👤 Dương Đài Tài<br>📅 07/09 – 26/12</p>
+                      </div>
+                      <p class="schedule-course-meta"><span>📍 SânPickleball_01</span><span>⏱ Tiết 6–8</span></p>
+                    </div>
+                  </td>
+                  <td class="schedule-slot" rowspan="4">
+                    <div class="schedule-course schedule-course-blue">
+                      <div>
+                        <div class="schedule-course-top"><span class="schedule-course-code">IS217.R11</span><span
+                            class="schedule-course-badge">LT</span></div>
+                        <h3>Kho dữ liệu và OLAP</h3>
+                        <p>👤 Đỗ Thị Minh Phụng<br>📅 07/09 – 28/11</p>
+                      </div>
+                      <p class="schedule-course-meta"><span>📍 B4.10</span><span>⏱ Tiết 6–9</span></p>
+                    </div>
+                  </td>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                </tr>
+                <tr>
+                  <th class="schedule-period" scope="row"><strong>Tiết 7</strong><small>13:45–14:30</small></th>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                </tr>
+                <tr>
+                  <th class="schedule-period" scope="row"><strong>Tiết 8</strong><small>14:30–15:15</small></th>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                </tr>
+                <tr>
+                  <th class="schedule-period" scope="row"><strong>Tiết 9</strong><small>15:30–16:15</small></th>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                </tr>
+                <tr>
+                  <th class="schedule-period" scope="row"><strong>Tiết 10</strong><small>16:15–17:00</small></th>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                  <td class="schedule-slot"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="schedule-unfixed">
+            <p>Lớp không có giờ cố định (DA / KLTN / TTTN...)</p>
+            <div class="schedule-unfixed-grid">
+              <article class="schedule-course schedule-course-orange schedule-unfixed-card">
+                <div>
+                  <div class="schedule-course-top"><span class="schedule-course-code">IS336.R12.1</span><span
+                      class="schedule-course-badge">HT2</span></div>
+                  <h3>Hoạch định nguồn lực doanh nghiệp</h3>
+                  <p>👤 Vân Đức Sơn Hà<br>📅 07/09 – 26/12</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space section-dark">
+      <div class="container cta-strip cta-strip-dark reveal">
+        <div>
+          <p class="eyebrow eyebrow-light">KEEP THE RHYTHM</p>
+          <h2>Small blocks.<br><span>Big progress.</span></h2>
+        </div>
+        <a class="button button-cyan" href="/projects/">View projects <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>5:[["$","main",null,{"id":"main-content","className":"content-page content-schedule","dangerouslySetInnerHTML":{"__html":"$10"}}],"$L11"]
+12:I[6012,["182","static/chunks/app/%5Bslug%5D/page-23b00d1cfe1e47ad.js"],"default"]
+11:["$","$L12",null,{"page":"schedule"}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+7:null
+13:I[1931,[],"IconMark"]
+9:{"metadata":[["$","title","0",{"children":"Schedule · Lê Tấn Vĩ"}],["$","meta","1",{"name":"description","content":"Portfolio của Lê Tấn Vĩ, sinh viên Hệ thống Thông tin tại UIT. Dự án Data Analytics, Computer Vision, Time Series và nghiên cứu Drosophila."}],["$","link","2",{"rel":"icon","href":"/favicon.svg"}],["$","$L13","3",{}]],"error":null,"digest":"$undefined"}
+e:"$9:metadata"

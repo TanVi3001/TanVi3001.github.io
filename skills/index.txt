@@ -1,0 +1,108 @@
+1:"$Sreact.fragment"
+2:I[7590,["5","static/chunks/5-aa7a38e656f72b50.js","177","static/chunks/app/layout-bb93fc0c06aa1945.js"],"default"]
+3:I[7799,[],""]
+4:I[1563,[],""]
+6:I[1614,[],"OutletBoundary"]
+8:I[2499,[],"AsyncMetadataOutlet"]
+a:I[1614,[],"ViewportBoundary"]
+c:I[1614,[],"MetadataBoundary"]
+d:"$Sreact.suspense"
+f:I[2685,[],""]
+:HL["/_next/static/css/e7ba9176084ffab0.css","style"]
+0:{"P":null,"b":"lKvRBgapSsM-hxcStvpyT","p":"","c":["","skills",""],"i":false,"f":[[["",{"children":[["slug","skills","d"],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e7ba9176084ffab0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","children":["$","body",null,{"children":[["$","a",null,{"className":"skip-link","href":"#main-content","children":"Bỏ qua đến nội dung chính"}],["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","footer",null,{"className":"neo-footer","children":[["$","div",null,{"className":"container footer-grid","children":[["$","div",null,{"children":[["$","a",null,{"className":"neo-brand","href":"/","children":[["$","span",null,{"className":"brand-tile","children":"TV"}],"LÊ TẤN VĨ",["$","span",null,{"className":"brand-period","children":"."}]]}],["$","p",null,{"children":["Information Systems · UIT",["$","br",null,{}],"Data → Software → AI → Research"]}]]}],["$","div",null,{"className":"footer-contact","children":[["$","p",null,{"className":"mono-label","children":"LET’S CONNECT"}],["$","a",null,{"href":"mailto:letanvi301@gmail.com","children":"letanvi301@gmail.com ↗"}],["$","div",null,{"children":[["$","a",null,{"href":"https://github.com/TanVi3001","target":"_blank","rel":"noopener noreferrer","children":"GitHub ↗"}],["$","a",null,{"href":"https://www.linkedin.com/in/t%E1%BA%A5n-v%C4%A9-198683355/","target":"_blank","rel":"noopener noreferrer","children":"LinkedIn ↗"}]]}]]}]]}],["$","div",null,{"className":"container footer-credit","children":[["$","span",null,{"children":"© 2026 Lê Tấn Vĩ"}],["$","span",null,{"children":"Built with curiosity & a little code."}]]}]]}]]}]}]]}],{"children":[["slug","skills","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$L7",["$","$L8",null,{"promise":"$@9"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$La",null,{"children":"$Lb"}],null],["$","$Lc",null,{"children":["$","div",null,{"hidden":true,"children":["$","$d",null,{"fallback":null,"children":"$Le"}]}]}]]}],false]],"m":"$undefined","G":["$f",[]],"s":false,"S":true}
+10:T10dc,<section class="page-hero container section-space">
+      <p class="eyebrow">05 / SKILLS</p>
+      <h1>Tools for<br><span>the work.</span></h1>
+      <p class="page-lead">Mức độ dưới đây là self-assessment để mô tả mức độ quen thuộc hiện tại, không phải chứng nhận
+        năng lực.</p>
+    </section>
+    <section class="section-space section-border">
+      <div class="container skills-layout">
+        <div class="skills-bars reveal">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">PROGRAMMING</p>
+              <h2>Core languages.</h2>
+            </div><span class="section-index">SELF_01</span>
+          </div>
+          <div class="skill-bar">
+            <div><strong>C++</strong><span>90%</span></div>
+            <div class="meter"><span class="meter-fill w-90" role="progressbar"
+                aria-label="C++ self-assessment 90 percent" aria-valuemin="0" aria-valuemax="100"
+                aria-valuenow="90"></span></div>
+          </div>
+          <div class="skill-bar">
+            <div><strong>Python</strong><span>80%</span></div>
+            <div class="meter"><span class="meter-fill w-80" role="progressbar"
+                aria-label="Python self-assessment 80 percent" aria-valuemin="0" aria-valuemax="100"
+                aria-valuenow="80"></span></div>
+          </div>
+          <div class="skill-bar">
+            <div><strong>Java</strong><span>70%</span></div>
+            <div class="meter"><span class="meter-fill w-70" role="progressbar"
+                aria-label="Java self-assessment 70 percent" aria-valuemin="0" aria-valuemax="100"
+                aria-valuenow="70"></span></div>
+          </div>
+          <div class="skill-bar">
+            <div><strong>JavaScript</strong><span>60%</span></div>
+            <div class="meter"><span class="meter-fill w-60" role="progressbar"
+                aria-label="JavaScript self-assessment 60 percent" aria-valuemin="0" aria-valuemax="100"
+                aria-valuenow="60"></span></div>
+          </div>
+          <div class="skill-bar">
+            <div><strong>SQL</strong><span>80%</span></div>
+            <div class="meter"><span class="meter-fill w-80" role="progressbar"
+                aria-label="SQL self-assessment 80 percent" aria-valuemin="0" aria-valuemax="100"
+                aria-valuenow="80"></span></div>
+          </div>
+        </div>
+        <div class="skills-groups reveal reveal-delay-1">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">STACK MAP</p>
+              <h2>Where I work.</h2>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Data &amp; AI</h3>
+            <div class="pill-cloud"><span>Data Analysis</span><span>Machine Learning</span><span>Computer
+                Vision</span><span>NumPy</span><span>Pandas</span><span>Matplotlib</span></div>
+          </div>
+          <div class="skill-group">
+            <h3>Database</h3>
+            <div class="pill-cloud"><span>Oracle</span><span>SQL</span><span>DataGrip</span><span>Database Design</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Development</h3>
+            <div class="pill-cloud"><span>Git</span><span>GitHub</span><span>Docker</span><span>Spring
+                Boot</span><span>React</span><span>Next.js</span></div>
+          </div>
+          <div class="skill-group">
+            <h3>Research / Simulation</h3>
+            <div class="pill-cloud"><span>FlyGym</span><span>NeuroMechFly</span><span>MuJoCo</span><span>Scientific
+                Computing</span><span>Computational Modeling</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-space section-dark">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow eyebrow-light">SOFT SKILLS</p>
+            <h2>How I work<br>with <span>others.</span></h2>
+          </div>
+        </div>
+        <div class="soft-skill-list reveal"><span>Problem
+            Solving</span><span>Research</span><span>Self-learning</span><span>Teamwork</span><span>Critical
+            Thinking</span><span>Time Management</span></div>
+      </div>
+    </section>5:[["$","main",null,{"id":"main-content","className":"content-page content-skills","dangerouslySetInnerHTML":{"__html":"$10"}}],"$L11"]
+12:I[6012,["182","static/chunks/app/%5Bslug%5D/page-23b00d1cfe1e47ad.js"],"default"]
+11:["$","$L12",null,{"page":"skills"}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+7:null
+13:I[1931,[],"IconMark"]
+9:{"metadata":[["$","title","0",{"children":"Skills · Lê Tấn Vĩ"}],["$","meta","1",{"name":"description","content":"Portfolio của Lê Tấn Vĩ, sinh viên Hệ thống Thông tin tại UIT. Dự án Data Analytics, Computer Vision, Time Series và nghiên cứu Drosophila."}],["$","link","2",{"rel":"icon","href":"/favicon.svg"}],["$","$L13","3",{}]],"error":null,"digest":"$undefined"}
+e:"$9:metadata"
