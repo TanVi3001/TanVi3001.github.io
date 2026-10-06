@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useEffect, useRef, useState } from 'react'
 import { ArrowUpRight, Menu, X, ChevronDown } from 'lucide-react'
-const primary = [{ href: '/', label: 'Home' }, { href: '/projects/', label: 'Projects' }, { href: '/experience/', label: 'Experience' }]
-const secondary = [{ href: '/skills/', label: 'Skills' }, { href: '/books/', label: 'Books' }, { href: '/certificates/', label: 'Certificates' }, { href: '/gallery/', label: 'Gallery' }, { href: '/hobbies/', label: 'Hobbies' }, { href: '/schedule/', label: 'Schedule' }]
+const primary = [{ href: '/', label: 'Trang chủ' }, { href: '/projects/', label: 'Dự án' }, { href: '/experience/', label: 'Học tập' }]
+const secondary = [{ href: '/skills/', label: 'Kỹ năng' }, { href: '/books/', label: 'Sách' }, { href: '/certificates/', label: 'Chứng chỉ' }, { href: '/gallery/', label: 'Ảnh' }, { href: '/hobbies/', label: 'Sở thích' }, { href: '/schedule/', label: 'Lịch học' }]
 export default function Nav() {
   const pathname = usePathname(), root = useRef<HTMLElement>(null)
   const [open, setOpen] = useState(false), [more, setMore] = useState(false)
@@ -17,11 +17,11 @@ export default function Nav() {
   }, [])
   function item(link: {href: string; label: string}) { return <Link key={link.href} href={link.href} className={pathname === link.href ? 'active' : ''} aria-current={pathname === link.href ? 'page' : undefined}>{link.label}</Link> }
   return <header className="neo-header" ref={root}><div className="container neo-nav-shell">
-    <Link className="neo-brand" href="/"><span className="brand-tile">TV</span>LÊ TẤN VĨ<span className="brand-period">.</span></Link>
+    <Link className="neo-brand" href="/"><span className="brand-tile">TV</span>Lê Tấn Vĩ</Link>
     <button className="mobile-nav-toggle" aria-label={open ? 'Đóng menu' : 'Mở menu'} aria-expanded={open} aria-controls="portfolio-nav" onClick={() => setOpen(!open)}>{open ? <X size={23} /> : <Menu size={23} />}</button>
     <nav id="portfolio-nav" aria-label="Điều hướng chính" className={`neo-nav ${open ? 'is-open' : ''}`}>
-      {primary.map(item)}<Link href="/#about" onClick={() => setOpen(false)}>About</Link>
-      <div className="nav-more"><button aria-expanded={more} aria-controls="more-links" onClick={() => setMore(!more)}>Explore <ChevronDown size={15} /></button>{more && <div className="more-links" id="more-links">{secondary.map(item)}</div>}</div>
+      {primary.map(item)}<Link href="/#about" onClick={() => setOpen(false)}>Giới thiệu</Link>
+      <div className="nav-more"><button aria-expanded={more} aria-controls="more-links" onClick={() => setMore(!more)}>Thêm <ChevronDown size={15} /></button>{more && <div className="more-links" id="more-links">{secondary.map(item)}</div>}</div>
       <div className="mobile-extra">{secondary.map(item)}</div><a className="nav-github" href="https://github.com/TanVi3001" target="_blank" rel="noopener noreferrer">GitHub <ArrowUpRight size={17} /></a>
     </nav>
   </div></header>

@@ -10,6 +10,6 @@ for (const name of entries) await cp(path.join(out, name), path.join(root, name)
 await writeFile(path.join(root, '.nojekyll'), '');
 for (const slug of ['projects','experience','hobbies','skills','books','certificates','gallery','schedule','interests']) {
   const target = slug === 'interests' ? 'hobbies' : slug;
-  await writeFile(path.join(root, `${slug}.html`), `<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=./${target}/"><link rel="canonical" href="https://tanvi3001.github.io/${target}/"><title>Lê Tấn Vĩ · ${target}</title></head><body><a href="./${target}/">Mở trang ${target}</a></body></html>\n`);
+  await writeFile(path.join(root, `${slug}.html`), `<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=./${target}/"><link rel="canonical" href="https://tanvi3001.github.io/${target}/"><title>Lê Tấn Vĩ · ${target}</title><style>html{color-scheme:dark}body{background:#070610;color:#f4f0ff;font-family:system-ui;padding:24px}a{color:#c4b5fd}</style></head><body><a href="./${target}/">Mở trang ${target}</a></body></html>\n`);
 }
 console.log('Static website exported to repository root; legacy links preserved.');

@@ -15,7 +15,7 @@ Data → Software → AI → Research
 - Experience — timeline hoạt động nghiên cứu và dự án học thuật, không bịa công ty hoặc internship.
 - Hobbies — coding, AI, research, data analysis, learning và experimentation.
 - Skills — programming self-assessment, Data/AI, Database, Development, Research/Simulation và soft skills.
-- Books — 3 cuốn sách về software development và machine learning.
+- Books — 4 cuốn sách về software development và machine learning.
 - Certificates — VNU-EPT B1.3 và Google Data Analytics Professional Certificate.
 - Gallery — CSS Grid với 6 ảnh vũ trụ do người dùng cung cấp, lightbox, previous/next, Escape và phím mũi tên.
 - Schedule — thời khóa biểu theo ngày, tiết học và các lớp không cố định.
@@ -23,7 +23,7 @@ Data → Software → AI → Research
 
 ## Framework & giao diện
 
-Next.js 15 (static export), React 19, Tailwind CSS 4 và Three.js. Giao diện được phát triển từ [Neobrutalism Portfolio](https://github.com/neobrutalism-templates/portfolio), giấy phép MIT lưu ở `web/TEMPLATE-LICENSE`. Phong cách sáng, viền đen và bóng cứng tham khảo Lab Blockchain; nội dung và ảnh là từ portfolio hiện có.
+Next.js 15 (static export), React 19, Tailwind CSS 4 và Three.js. Giao diện được phát triển từ [Neobrutalism Portfolio](https://github.com/neobrutalism-templates/portfolio), giấy phép MIT lưu ở `web/TEMPLATE-LICENSE`. Giao diện hiện tại dùng nền đen `#070610`, tím nhạt `#c4b5fd` và viền `#382650`, đồng bộ với GitHub profile. Bố cục tập trung vào tên cá nhân và dự án thực tế; nội dung và ảnh được giữ từ portfolio hiện có.
 
 Hero neural network 3D có ba chủ đề, tương tác chuột, tạm dừng và đặt lại. Đây là minh họa, không chạy mô hình inference. Có hình thay thế khi WebGL không khả dụng; tự giảm chuyển động theo cài đặt hệ thống và dừng khi ra khỏi màn hình.
 
@@ -114,7 +114,7 @@ Website dùng đường dẫn tương đối (`./`) nên có thể chạy ở ro
 - Semantic HTML5, heading hierarchy, skip link, `aria-label`, `aria-expanded` và `aria-current`.
 - Mọi ảnh đều có `alt`; gallery dùng `loading="lazy"`.
 - Gallery button keyboard-accessible; modal có Close, Escape, Previous, Next, ArrowLeft và ArrowRight.
-- Focus state rõ ràng, màu navy/cyan/purple có tương phản tốt và có `prefers-reduced-motion`.
+- Focus state rõ ràng, màu đen/tím có tương phản tốt và có `prefers-reduced-motion`.
 - Layout dùng Grid/Flexbox và media queries cho mobile `<576px`, tablet `768–991px`, desktop `≥992px`.
 - Không dùng table để dựng layout; riêng schedule dùng table cho dữ liệu dạng hàng/cột. Không tải thư viện JavaScript lớn.
 
